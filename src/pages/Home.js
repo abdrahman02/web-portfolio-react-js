@@ -1,12 +1,8 @@
 import React from "react";
+import Cta from "../components/cta";
 
 const Home = () => {
-  return (
-    <div className="">
-      <h2 className="">ini cuma Home BOS !!!!</h2>
-      {/* Add content here */}
-    </div>
-  );
+  return <Cta />;
 };
 
 export default Home;
