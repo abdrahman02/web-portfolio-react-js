@@ -26,13 +26,22 @@ const Cta = () => {
           <div className="photo rounded-full"></div>
         </div>
       </div>
-      <div className="cta-cols flex flex-col justify-between">
+      <div className="cta-cols flex flex-col items-center justify-between">
         <div className="tagline text-center tracking-widest text-sm">
           "If you stop developing, then you will be left behind by others"
         </div>
-        <div className="social-media">
+        <div className="cv">
+          <a
+            className="text-center text-sm font-semibold p-2 border-2 rounded-lg border-teal-600 shadow-xl cursor-pointer transition ease-in-out duration-75 hover:bg-teal-600 hover:border-none hover:text-white"
+            href="https://drive.google.com/drive/folders/1bl9nJrYDii8IOH_-OJ5fRDJflvnLHw8q?usp=sharing"
+            target="_blank"
+          >
+            Curiculum Vitae
+          </a>
+        </div>
+        <div className="social-media flex flex-col items-center">
           <span className="text-sm font-bold">Visit my social media :</span>
-          <div className="icon grid grid-flow-col gap-5 w-32 text-3xl">
+          <div className="icon grid grid-flow-col gap-5 w-40 text-3xl">
             <a href="https://www.instagram.com/abd_rahman.02" target="_blank">
               <i className="fa-brands fa-linkedin text-blue-500"></i>
             </a>

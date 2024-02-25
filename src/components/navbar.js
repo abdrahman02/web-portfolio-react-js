@@ -23,13 +23,10 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <a
-          className="text-2xl text-blue-600 mx-3 p-1 rounded-full shadow-2xl shadow-slate-800"
-          href="https://www.linkedin.com/in/m-abdul-rahman-5ab007294/"
-          target="_blank"
-        >
-          <i className="fa-brands fa-linkedin"></i>
-        </a>
+        <span className="text-slate-800">
+          (+62) 823-6016-2637 &nbsp;
+          <i className="fa-solid fa-square-phone-flip text-xl text-teal-600"></i>
+        </span>
       </div>
     </div>
   );
