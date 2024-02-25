@@ -3,7 +3,10 @@ import "../assets/css/cta.css";
 
 const Cta = () => {
   return (
-    <section className="container mx-auto flex justify-between items-center text-slate-800">
+    <section
+      id="cta"
+      className="container mx-auto pt-14 h-screen flex justify-between items-center text-slate-800"
+    >
       <div className="cta-cols flex flex-col justify-between">
         <div className="greetings text-5xl font-bold tracking-widest">
           <h2>Hello There,</h2>
@@ -21,11 +24,13 @@ const Cta = () => {
           </div>
         </div>
       </div>
+
       <div>
         <div className="cover-photo bg-clip-border bg-cover">
           <div className="photo rounded-full"></div>
         </div>
       </div>
+
       <div className="cta-cols flex flex-col items-center justify-between">
         <div className="tagline text-center tracking-widest text-sm">
           "If you stop developing, then you will be left behind by others"

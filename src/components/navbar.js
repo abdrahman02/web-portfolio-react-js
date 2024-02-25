@@ -3,17 +3,14 @@ import "../assets/css/navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="container mx-auto">
+    <nav className="fixed top-0 left-0 right-0 bg-slate-50 z-10">
       <div className="flex justify-between items-center p-4 font-semibold">
         <span id="logo" className="text-3xl">
-          <a href="/">My Portfolio</a>
+          <a href="/#cta">My Portfolio</a>
         </span>
         <ul className="flex gap-20">
           <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-            <a href="/">EXPERIENCES</a>
-          </li>
-          <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-            <a href="/">EDUCATIONS</a>
+            <a href="/#experiences">EXPERIENCES</a>
           </li>
           <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
             <a href="/">CERTIFICATES</a>
@@ -28,7 +25,7 @@ const Navbar = () => {
           <i className="fa-solid fa-square-phone-flip text-xl text-teal-600"></i>
         </span>
       </div>
-    </div>
+    </nav>
   );
 };
 
