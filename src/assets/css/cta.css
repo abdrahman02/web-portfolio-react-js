@@ -1,7 +1,3 @@
-/* section#cta {
-  height: 535px;
-} */
-
 .cta-cols,
 .cover-photo,
 .photo {
@@ -16,7 +12,7 @@
   background-image: url("../images/foto-square.png");
 }
 
-.fa-instagram {
+.pi-instagram {
   background: radial-gradient(
     circle at 30% 107%,
     #fdf497 0%,

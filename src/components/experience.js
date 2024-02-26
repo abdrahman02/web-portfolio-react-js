@@ -1,20 +1,19 @@
 import React, { useState } from "react";
-import "../assets/css/experience.css";
 import DetailProject from "./detail-project";
 import Projects from "../utils/projects";
 
 const Experience = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [visible, setVisible] = useState(false);
 
   const openModal = (project) => {
     setSelectedProject(project);
-    setModalIsOpen(true);
+    setVisible(true);
   };
 
   const closeModal = () => {
     setSelectedProject(null);
-    setModalIsOpen(false);
+    setVisible(false);
   };
   return (
     <section
@@ -31,7 +30,7 @@ const Experience = () => {
         {Projects.map((project, index) => (
           <div
             key={index}
-            className="card w-96 shadow-xl hover:scale-105 transition-all"
+            className="card w-96 relative shadow-xl hover:scale-105 transition-all"
           >
             <img
               className="w-auto h-auto rounded-lg"
@@ -39,9 +38,9 @@ const Experience = () => {
               alt={project.title}
             />
             <div className="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-300 flex justify-center items-center rounded-lg">
-              <div className="text-slate-500 text-4xl opacity-100 transition-opacity duration-300">
+              <div className="text-slate-500 opacity-100 transition-opacity duration-300">
                 <i
-                  className="fa-solid fa-magnifying-glass cursor-pointer"
+                  className="pi pi-search text-4xl cursor-pointer"
                   onClick={() => openModal(project)}
                 ></i>
               </div>
@@ -51,8 +50,8 @@ const Experience = () => {
       </div>
 
       <DetailProject
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
+        isVisible={visible}
+        onRequestInvisible={closeModal}
         project={selectedProject}
       />
     </section>

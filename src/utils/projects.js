@@ -6,7 +6,6 @@ import loginTGA from "../assets/images/pengaduan kekerasan seksual/login.png";
 
 // * PT. Bina Utama
 import indexPelanggan from "../assets/images/pt-bina-utama/index-pelanggan.png";
-import laporanBarang from "../assets/images/pt-bina-utama/laporan-barang.png";
 import login from "../assets/images/pt-bina-utama/login.png";
 import tambahPelanggan from "../assets/images/pt-bina-utama/tambah-pelanggan.png";
 
@@ -36,7 +35,7 @@ const Projects = [
     liveDemo: null,
   },
   {
-    images: [indexPelanggan, laporanBarang, login, tambahPelanggan],
+    images: [indexPelanggan, login, tambahPelanggan],
     title: "Goods data collection website",
     resources: ["HTML", "CSS", "Javascript", "Bootstrap", "etc"],
     features: ["Basic Auth", "CRUD", "etc"],
