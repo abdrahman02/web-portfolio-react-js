@@ -43,7 +43,7 @@ const datas = [
     exp: "-1 Bulan",
   },
   {
-    title: "React Js",
+    title: "React",
     image: reactjs,
     exp: "-1 Bulan",
   },

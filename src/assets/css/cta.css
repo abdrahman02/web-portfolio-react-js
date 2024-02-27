@@ -12,7 +12,7 @@
   background-image: url("../images/foto-square.png");
 }
 
-.pi-instagram {
+div.icon a i.pi.pi-instagram {
   background: radial-gradient(
     circle at 30% 107%,
     #fdf497 0%,

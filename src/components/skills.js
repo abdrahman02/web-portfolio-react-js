@@ -2,7 +2,7 @@ import React from "react";
 import datas from "../utils/skills-data";
 import { Tooltip } from "primereact/tooltip";
 
-const Skills = () => {
+const Skills = ({ visibleSection }) => {
   return (
     <section
       id="skills"
@@ -21,7 +21,13 @@ const Skills = () => {
               target={`#item${index}`}
               position="top"
               content={item.exp}
-              className="text-sm font-medium"
+              mouseTrack
+              mouseTrackLeft={10}
+              pt={{
+                text: {
+                  className: "p-1 text-sm font-light bg-teal-600",
+                },
+              }}
             />
             <img
               id={`item${index}`}
