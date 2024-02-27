@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Cta from "../components/Cta";
 import Experience from "../components/Experience";
 import Certificates from "../components/Certificates";
 import Skills from "../components/Skills";
 import { ScrollTop } from "primereact/scrolltop";
+import DialogStillDeploy from "../components/DialogStillDeploy";
 
 const Home = () => {
+  const [visible, setVisible] = useState(true);
   return (
     <div>
+      <DialogStillDeploy visible={visible} setVisible={setVisible} />
       <Cta />
       <Experience />
       <Certificates />
