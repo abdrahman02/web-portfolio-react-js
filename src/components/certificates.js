@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "primereact/carousel";
 import { Accordion, AccordionTab } from "primereact/accordion";
 import { Badge } from "primereact/badge";
-import Sertifikat from "../utils/sertifikat";
+import Sertifikat from "../utils/Sertifikat";
 
 const Certificates = () => {
   const itemTemplate = (sertifikat) => {

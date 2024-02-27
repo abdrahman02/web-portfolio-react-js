@@ -1,8 +1,8 @@
 import React from "react";
-import HandleLiveDemo from "../utils/handleLiveDemo";
+import HandleLiveDemo from "../utils/HandleLiveDemo";
 import { Carousel } from "primereact/carousel";
 import { Dialog } from "primereact/dialog";
-import "../assets/css/detail-project.css";
+import "../assets/css/DetailProject.css";
 
 const DetailProject = ({ isVisible, onRequestInvisible, project }) => {
   const { images, title, resources, features, liveDemo } = project || {};

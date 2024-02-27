@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import DetailProject from "./detail-project";
-import Projects from "../utils/projects";
+import DetailProject from "./DetailProject";
+import Projects from "../utils/Projects";
 
 const Experience = () => {
   const [selectedProject, setSelectedProject] = useState(null);

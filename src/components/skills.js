@@ -1,5 +1,5 @@
 import React from "react";
-import datas from "../utils/skills-data";
+import datas from "../utils/SkillsData";
 import { Tooltip } from "primereact/tooltip";
 
 const Skills = ({ visibleSection }) => {

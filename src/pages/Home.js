@@ -1,8 +1,8 @@
 import React from "react";
-import Cta from "../components/cta";
-import Experience from "../components/experience";
-import Certificates from "../components/certificates";
-import Skills from "../components/skills";
+import Cta from "../components/Cta";
+import Experience from "../components/Experience";
+import Certificates from "../components/Certificates";
+import Skills from "../components/Skills";
 import { ScrollTop } from "primereact/scrolltop";
 
 const Home = () => {
