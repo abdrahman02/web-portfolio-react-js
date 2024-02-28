@@ -15,10 +15,10 @@ const DialogStillDeploy = ({ visible, setVisible }) => {
       }}
     >
       <p className="m-0 text-2xl font-bold uppercase mb-3">
-        🙇‍♂️🙇‍♂️ still in the development stage 🙇‍♂️🙇‍♂️
+        🙇‍♂️🙇‍♂️ Still Under Development 🙇‍♂️🙇‍♂️
       </p>
       <p className="m-0 font-light tracking-widest">
-        🙏 Please understand if there are any bugs 🙏
+        🙏 Please understand if you find any bugs 🙏
       </p>
     </Dialog>
   );

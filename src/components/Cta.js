@@ -37,7 +37,7 @@ const Cta = () => {
         </div>
         <a
           className="text-center text-sm font-semibold p-2 border-2 rounded-lg border-teal-600 shadow-xl cursor-pointer transition ease-in-out duration-75 hover:bg-teal-600 hover:border-none hover:text-white"
-          href="https://drive.google.com/drive/folders/1bl9nJrYDii8IOH_-OJ5fRDJflvnLHw8q?usp=sharing"
+          href="https://drive.google.com/file/d/1QL8y9RMc7F7asF0qTuqeKPPhFtmqieIt/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
