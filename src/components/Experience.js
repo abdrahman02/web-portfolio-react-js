@@ -18,7 +18,7 @@ const Experience = () => {
   return (
     <section
       id="experiences"
-      className="container h-screen mx-auto pt-14 flex flex-col justify-evenly items-center"
+      className="container mx-auto pt-24 flex flex-col justify-evenly items-center"
     >
       <h2 className="tracking-widest text-2xl font-bold bg-gradient-to-r from-teal-600 via-lime-900 to-teal-900 text-transparent bg-clip-text">
         EXPERIENCES
