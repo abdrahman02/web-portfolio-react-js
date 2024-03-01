@@ -11,7 +11,7 @@ const Navbar = () => {
         <span id="logo" className="text-3xl lg:text-4xl 2xl:text-5xl">
           <a href="/#cta">My Portfolio</a>
         </span>
-        <ul className="flex gap-20 sm:hidden lg:flex lg:text-lg 2xl:text-xl">
+        <ul className="flex gap-20 hidden lg:flex lg:text-lg 2xl:text-xl">
           <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
             <a href="/#experiences">EXPERIENCES</a>
           </li>
