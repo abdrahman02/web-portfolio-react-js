@@ -1,9 +1,9 @@
-.cta-cols,
 .cover-photo,
 .photo {
-  width: 369px;
-  height: 369px;
+  width: 278px;
+  height: 278px;
 }
+
 .cover-photo {
   background-image: url("../images/scratch-paint.png");
 }
@@ -25,4 +25,19 @@ div.icon a i.pi.pi-instagram {
   /* Also define standard property for compatibility */
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 515px) {
+  #cta,
+  .career-time {
+    position: static;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cover-photo,
+  .photo {
+    width: 369px;
+    height: 369px;
+  }
 }
