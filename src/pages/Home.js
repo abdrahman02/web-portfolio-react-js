@@ -10,19 +10,21 @@ const Home = () => {
   const [visible, setVisible] = useState(true);
   return (
     <div>
-      <DialogStillDeploy visible={visible} setVisible={setVisible} />
-      <Cta />
-      <Experience />
-      <Certificates />
-      <Skills />
-      <ScrollTop
-        pt={{
-          root: {
-            className: "w-2rem h-2rem animate-bounce bg-teal-600 rounded-lg",
-          },
-          icon: { className: "w-1rem h-1rem animate-bounce" },
-        }}
-      />
+      <main>
+        <DialogStillDeploy visible={visible} setVisible={setVisible} />
+        <Cta />
+        <Experience />
+        <Certificates />
+        <Skills />
+        <ScrollTop
+          pt={{
+            root: {
+              className: "w-2rem h-2rem animate-bounce bg-teal-600 rounded-lg",
+            },
+            icon: { className: "w-1rem h-1rem animate-bounce" },
+          }}
+        />
+      </main>
     </div>
   );
 };

@@ -5,7 +5,7 @@ const Cta = () => {
   return (
     <section
       id="cta"
-      className="container mx-auto px-8 mt-16 flex flex-wrap justify-center items-center text-slate-800 relative sm:static sm:gap-5 md:justify-evenly lg:mt-36 xl:py-12 xl:gap-0"
+      className="container mx-auto px-8 mt-3 flex flex-wrap justify-center items-center text-slate-800 relative sm:static sm:gap-5 md:justify-evenly xl:py-12 xl:gap-0"
     >
       <div className="cta-cols flex flex-col items-center gap-5 xl:justify-between xl:gap-y-12 xl:w-1/3">
         <div className="greetings text-2xl font-bold tracking-widest text-center w-full md:text-3xl xl:text-5xl">
