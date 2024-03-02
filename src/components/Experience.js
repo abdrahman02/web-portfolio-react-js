@@ -18,7 +18,7 @@ const Experience = () => {
   return (
     <section
       id="experiences"
-      className="container mx-auto pt-24 flex flex-col justify-evenly items-center"
+      className="container px-8 mx-auto pt-16 flex flex-col justify-evenly items-center gap-y-3 lg:pt-24 xl:pt-20"
     >
       <h2 className="tracking-widest text-2xl font-bold bg-gradient-to-r from-teal-600 via-lime-900 to-teal-900 text-transparent bg-clip-text">
         EXPERIENCES
@@ -30,7 +30,7 @@ const Experience = () => {
         {Projects.map((project, index) => (
           <div
             key={index}
-            className="card w-96 relative shadow-xl hover:scale-105 transition-all"
+            className="card min-w-80 relative shadow-xl hover:scale-105 transition-all lg:max-w-96 2xl:min-w-[576px]"
           >
             <img
               className="w-auto h-auto rounded-lg"
