@@ -19,7 +19,6 @@ const DetailProject = ({ isVisible, onRequestInvisible, project }) => {
       className="custom-dialog"
       header="Details of my project"
       visible={isVisible}
-      // style={{ width: "80vw", height: "80vh" }}
       onHide={onRequestInvisible}
       pt={{
         root: { className: "w-10/12" },
@@ -36,7 +35,6 @@ const DetailProject = ({ isVisible, onRequestInvisible, project }) => {
           circular
           pt={{
             root: { className: "lg:w-5/12" },
-            // content: { className: "sm:w-11/12" },
           }}
         />
         <div className="flex flex-col justify-evenly tracking-widest px-5 pb-5 lg:w-1/2">
