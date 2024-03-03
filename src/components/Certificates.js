@@ -20,7 +20,7 @@ const Certificates = () => {
   return (
     <section
       id="certificates"
-      className="container px-8 mx-auto pt-14 flex flex-col justify-center items-center overflow-hidden"
+      className="container px-8 mx-auto pt-16 flex flex-col justify-center items-center lg:pt-24 xl:pt-20"
     >
       <h2 className="tracking-widest text-2xl font-bold mb-3 bg-gradient-to-r from-teal-600 via-lime-900 to-teal-900 text-transparent bg-clip-text">
         CERTIFICATES
