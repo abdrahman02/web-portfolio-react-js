@@ -26,8 +26,8 @@ const Certificates = () => {
         CERTIFICATES
       </h2>
 
-      <div className="flex flex-wrap justify-center">
-        <Accordion activeIndex={0} pt={{ root: { className: "p-5 lg:w-1/2" } }}>
+      <div className="flex flex-wrap justify-center items-center">
+        <Accordion activeIndex={0} pt={{ root: { className: "lg:w-1/2" } }}>
           <AccordionTab
             header={
               <span className="flex align-items-center gap-2 w-full justify-center items-center">
@@ -42,6 +42,7 @@ const Certificates = () => {
                 />
               </span>
             }
+            pt={{ headerAction: { className: "px-5" } }}
           >
             <p className="m-0 ps-8 pb-5 text-justify">
               Certificate as Speaker in Basic Training for the Information
@@ -62,6 +63,7 @@ const Certificates = () => {
                 />
               </span>
             }
+            pt={{ headerAction: { className: "px-5" } }}
           >
             <p className="m-0 ps-8 pb-5 text-justify">
               Certificate Malikussaleh University Information Systems Student
@@ -83,6 +85,7 @@ const Certificates = () => {
                 />
               </span>
             }
+            pt={{ headerAction: { className: "px-5" } }}
           >
             <p className="m-0 ps-8 pb-5 text-justify">
               Certificate Malikussaleh University Information Systems Student
@@ -104,6 +107,7 @@ const Certificates = () => {
                 />
               </span>
             }
+            pt={{ headerAction: { className: "px-5" } }}
           >
             <p className="m-0 ps-8 pb-5 text-justify">
               Certificate Workshop From Anywhere PT. Solusi Data Madani
