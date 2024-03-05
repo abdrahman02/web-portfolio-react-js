@@ -13,15 +13,21 @@ const Navbar = () => {
             <a href="/#cta">My Portfolio</a>
           </span>
           <ul className="flex gap-20 hidden lg:flex lg:text-base 2xl:text-lg">
-            <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-              <a href="/#experiences">EXPERIENCES</a>
-            </li>
-            <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-              <a href="/#certificates">CERTIFICATES</a>
-            </li>
-            <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-              <a href="/#skills">SKILLS</a>
-            </li>
+            <a href="/#experiences">
+              <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
+                EXPERIENCES
+              </li>
+            </a>
+            <a href="/#certificates">
+              <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
+                CERTIFICATES
+              </li>
+            </a>
+            <a href="/#skills">
+              <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
+                SKILLS
+              </li>
+            </a>
           </ul>
 
           <span className="flex justify-center items-center text-slate-800 text-xs sm:text-base 2xl:text-xl">
@@ -41,15 +47,21 @@ const Navbar = () => {
             }}
           >
             <ul className="flex flex-col font-medium text-justify text-xs sm:text-base">
-              <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-                <a href="/#experiences">EXPERIENCES</a>
-              </li>
-              <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-                <a href="/#certificates">CERTIFICATES</a>
-              </li>
-              <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
-                <a href="/#skills">SKILLS</a>
-              </li>
+              <a href="/#experiences">
+                <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
+                  EXPERIENCES
+                </li>
+              </a>
+              <a href="/#certificates">
+                <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
+                  CERTIFICATES
+                </li>
+              </a>
+              <a href="/#skills">
+                <li className="p-2 text-teal-600 hover:border-x-2 rounded-full border-x-teal-600 transition-all">
+                  SKILLS
+                </li>
+              </a>
             </ul>
           </Sidebar>
           <Button
