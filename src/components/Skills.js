@@ -6,19 +6,17 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="container h-auto px-8 mx-auto pt-16 flex flex-col justify-evenly items-center gap-y-3 lg:pt-24 xl:pt-20 bg-slate-400"
+      className="container h-auto px-8 mx-auto pt-16 flex flex-col justify-evenly items-center gap-y-3 lg:pt-24 xl:pt-20"
     >
       <h2 className="tracking-widest text-2xl font-bold bg-gradient-to-r from-teal-600 via-lime-900 to-teal-900 text-transparent bg-clip-text">
         SKILLS
       </h2>
-      <span className="text-md font-light tracking-widest bg-yellow-600">
-        Hover Bro!
-      </span>
-      <div className="flex fex-col flex-wrap gap-8 justify-evenly bg-indigo-900">
+      <span className="text-md font-light tracking-widest">Hover Bro!</span>
+      <div className="flex fex-col flex-wrap gap-8 justify-evenly">
         {datas.map((item, index) => (
           <div
             key={index}
-            className="w-1/4 mb-5 flex flex-row flex-wrap justify-between text-center md:w-1/6 lg:w-1/12 bg-cyan-600"
+            className="w-1/4 mb-5 flex flex-row flex-wrap justify-between text-center md:w-1/6 lg:w-1/12"
           >
             <Tooltip
               target={`#item${index}`}
@@ -38,7 +36,7 @@ const Skills = () => {
               src={item.image}
               className="w-full h-auto curosr-pointer"
             />
-            <p className="w-full font-medium text-xs pt-2 sm:text-sm md:text-base xl:text-lg bg-red-400">
+            <p className="w-full font-medium text-xs pt-2 sm:text-sm md:text-base xl:text-lg">
               {item.title}
             </p>
           </div>
